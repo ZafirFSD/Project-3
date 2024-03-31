@@ -1,0 +1,133 @@
+@media (max-width: 768px) {
+    .home-image {
+        min-height: 300px;
+    }
+    .navbar {
+        padding: 5px 10px;
+    }
+
+}
+
+.navbar {
+    padding: 8px 16px; 
+}
+
+.navbar-brand img {
+    width: 100px; 
+}
+
+.navbar-brand img {
+    box-shadow: 3px 3px 13px rgba(0, 0, 0, 1);
+}
+
+.navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #ffff;
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;       
+}
+
+.main2-image {
+    background: url('images/main-2.png') no-repeat center/cover;
+    min-height: 390px;
+}
+
+.mb-2 {
+    display: block;
+    margin: 5px 0 20px 0;
+}
+
+.contanier.mt-5 .mb-5 {
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.form-container {
+    max-width: 500px;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 60px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box; 
+}
+
+.form-container h1 {
+    text-align: center;
+}
+
+.form-container button {
+    margin-top: 20px;
+}
+
+.imagebg {
+    background-image: url(images/product-2.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#message {
+    resize: none;
+}
+
+.bg-image {
+    background-image: url('images/main.png');
+    background-size: cover;
+}
+
+.home-image {
+    background: url(images/home.png) no-repeat center/cover;
+    min-height: 500px;
+}   
+
+.signup-container {
+    width: 100%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#username, #email, #password, .last-btn {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.imagebg-2 {
+        background-image: url(images/about.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+}
+
+.navbar-toggler {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header{
+    position:sticky;
+    top:0px;
+    left:0px;
+    z-index: 400;
+}
+
+#signupnow:hover{
+    color:blue !important ;
+    outline:2px solid blue !important ;
+}
+
